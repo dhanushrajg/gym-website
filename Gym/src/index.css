@@ -1,0 +1,21 @@
+/* 
+  ENNA PANROM: Patha index.css la 800+ lines custom CSS irunduchu.
+  Athai ellam delete panni Tailwind directives mattum potrom.
+  Yen: Tailwind already install aagiruku (package.json paarunga),
+  aana @tailwind directives pottu use pannala — so CSS work aagala.
+  Ippo ellaa styling um Tailwind utility classes la components la eh irukum.
+*/
+
+@import "tailwindcss";
+
+/* 
+  Custom scrollbar hide — Tailwind la direct class illa itharku,
+  so ithayum mattum CSS la vechurukom.
+*/
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
